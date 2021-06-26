@@ -1,14 +1,13 @@
 import React from 'react'
 import Header from "../components/Header";
-import BidContainer from "../components/BidContainer";
-import SelectContainer from "../components/SelectContainer";
+import DollarContainer from "../components/DollarContainer";
+import MarkNumberContainer from "../components/MarkNumberContainer";
 import SelectedContainer from "../components/SelectedContainer";
 import Footer from "../components/Footer";
 
 const HomePage = () => {
    
     return (
-    
   
         <div className="container"> 
             
@@ -16,9 +15,9 @@ const HomePage = () => {
 
             <main>
              
-                    <BidContainer />
+                    <DollarContainer />
 
-                    <SelectContainer />
+                    <MarkNumberContainer />
 
                     <SelectedContainer />
 

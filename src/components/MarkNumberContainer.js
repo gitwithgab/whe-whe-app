@@ -1,8 +1,8 @@
 import React from 'react';
-import MarkNumbers from "../components/MarkNumbers";
-import ActionButtons from "../components/ActionButtons";
+import MarkNumbers from "./MarkNumbers";
+import ActionButtons from "./ActionButtons";
 
-const SelectContainer = () => {
+const MarkNumberContainer = () => {
     
     return (
 
@@ -17,4 +17,4 @@ const SelectContainer = () => {
     )
 }
 
-export default SelectContainer
+export default MarkNumberContainer
