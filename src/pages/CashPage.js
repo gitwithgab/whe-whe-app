@@ -1,16 +1,19 @@
-import React from 'react'
-import Modal from "../components/Modal"
-import CashierSummary from "../components/CashierSummary"
-import CashierKeypad from "../components/CashierKeypad"
+import React from 'react';
+import Header from "../components/Header";
+
 
 const CashPage = () => {
+
     return (
+
         <div>
-            <Modal />
-            <CashierSummary />
-            <CashierKeypad />
+
+            <Header />
+
         </div>
+        
     )
+
 }
 
 export default CashPage

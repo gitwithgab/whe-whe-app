@@ -1,13 +1,18 @@
-import React from 'react'
+import React from 'react';
+import {Link} from "react-router-dom";
 
 const Header=()=>{
+
 return(
-    <div className="header-content">
-        <h1>
-            WHE WHE on D'Avenue
-        </h1>
-    </div>
+
+    <header>
+
+        <h1> <Link to="/">WHE <span id="text-secondary">WHE</span> on D'Avenue</Link> </h1>
+        
+    </header>
+
     )
+    
 }
 
 export default Header
